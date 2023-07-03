@@ -36,9 +36,11 @@ img {
   width: 100%;
 }
 
+
+
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin-top: 38px;
   justify-content: center;
 }
 
@@ -89,4 +91,17 @@ img {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+
+@media (max-width: 900px) {
+  h1 {
+    max-width: 42px;
+    line-height: 0.8;
+    margin-bottom: 15px;
+  }
+
+  .primary-link {
+    max-width: 100%;
+  }
 }
