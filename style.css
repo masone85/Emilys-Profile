@@ -32,6 +32,10 @@ p {
   line-height: 1.5;
 }
 
+img {
+  width: 100%;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
