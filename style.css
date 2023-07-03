@@ -99,6 +99,8 @@ img {
     max-width: 42px;
     line-height: 0.8;
     margin-bottom: 15px;
+    display: block;
+    text-align: center;
   }
 
   .primary-link {
